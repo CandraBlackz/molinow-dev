@@ -1,0 +1,37 @@
+html, body{
+	background: #e0d6d4;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	font-family: "Open sans";
+}
+
+#intro #text {
+    font-size: 70px;
+    font-weight: 800;
+    width: 11.1em;
+    height: 1.5em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%,-50%);
+}
+
+#intro #intro-button {
+    position: absolute;
+    left: 48%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#intro #intro-button #start {
+    font-size: 15;
+    background: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    display: none;
+}
